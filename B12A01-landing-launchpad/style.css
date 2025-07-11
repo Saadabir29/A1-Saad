@@ -45,3 +45,87 @@
     .signup_button:hover{
         background-color: #2acf82;
     }
+      .hero_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 700px;
+    margin: 60px auto 0;
+    padding: 20px;
+    }
+    .hero_content h1{
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+    .stayfoucused_button{
+    width: 150px;
+    height: 35px;
+    color: white;
+    font-weight: bolder;
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+    .stayfoucused_button:hover {
+    background-color: #2acf82;
+}
+.seeitinaction{
+    background-color: #f6f7fa;
+    padding: 80px 0;
+}
+    .content{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+}
+    .action{
+    flex: 1;
+    max-width: 500px;
+    color: black;
+}
+    .action h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+    .action p{
+    font-size: 1.5rem;
+    color: #a0a0a0;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+    .launchpreview{
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+    .launchpreview:hover {
+    background-color: #2acf82;
+}
+    .actionimage{
+    flex: 1;
+    max-width: 450px;
+    display: flex;
+    justify-content: flex-end;
+}
+    .actionimage img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
