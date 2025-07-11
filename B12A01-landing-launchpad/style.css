@@ -1,0 +1,47 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+    body{
+        background-color: #1a1a1a;
+        color: white;
+    }
+.hero{
+        background-image: url("./assets/Hero-bg.png");
+        background-color: #2c2c2c;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 70vh;
+    }
+    nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 100px;
+    padding: 0px 50px;
+    color: white;
+}
+    .logo{
+        font-size: 30px;
+        font-weight: bold;
+        color: #4E47FF;
+    }
+    .signup_button{
+        width: 120px;
+        height: 30px;
+        color: white;
+        border: none;
+        font-weight: bolder;
+        background-color: #4E47FF;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: background 0.3s ease;
+    }
+    .signup_button:hover{
+        background-color: #2acf82;
+    }
